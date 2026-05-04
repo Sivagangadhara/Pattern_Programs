@@ -10,8 +10,9 @@ public class pattern18 {
 		System.out.print("Enter the Pattern Size : ");
 		int s=sc.nextInt();
 		
-		System.out.print("Enter Pattren Starting Letter");
-           char l=sc.next().charAt(0);
+//		System.out.print("Enter Pattren Starting Letter : ");
+//           char l=sc.next().charAt(0);
+		char l='E';
            
            for(int i=1;i<=s;i++) {
         	   char c = (char)(l - (i - 1));
